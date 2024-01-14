@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from '../constants/productConstant.js';
 
-const URL = 'http://localhost:8000';
+const URL = 'https://flipkart-server-fawn.vercel.app/';
 
 // Assuming you're using Redux, you need to pass `dispatch` as an argument to your action function
 export const getProducts = () => async (dispatch) => {
